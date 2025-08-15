@@ -28,3 +28,44 @@ header img {
   width: 24px;
   height: 24px;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.topline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.topline img {
+  width: 14px;
+  height: 20px;
+}
+
+.country {
+  color: #2b283a;
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.topline a {
+  color: #918e9b;
+  font-size: 0.82rem;
+  padding-left: 20px;
+}
+
+.topline a:hover {
+  color: #918e9b;
+}
+
+.wrapper h1 {
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 1.875rem;
+}
